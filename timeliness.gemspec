@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
 
   s.files            = `git ls-files`.split("\n")
   s.files            = `git ls-files`.split("\n") - %w{ .gitignore .rspec Gemfile Gemfile.lock }
-  s.extra_rdoc_files = ["README.rdoc", "CHANGELOG.rdoc"]
+  s.extra_rdoc_files = ["README.md", "CHANGELOG.rdoc"]
   s.require_paths    = ["lib"]
 end
